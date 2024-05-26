@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Onde você nasceu?: <input type="text" name="textpais" id="textpais">
+    <input type="button" value="Verificar" onclick="click_pais()">
+    <div id="res"></div>
+    <script>
+        function click_pais() {
+            var texnac = document.getElementById('textpais')
+            var res = document.getElementById('res')
+            res.innerHTML = `<p>Você nasceu em ${textnac}</p>`
+        }
+    </script>
+</body>
+</html>
